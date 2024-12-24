@@ -1,12 +1,10 @@
 <h1>Implementation of VPN Tunnel</h1>
 
-
-
 <h2>Description</h2>
 A private network constructed on top of a public network, typically the Internet, is called a virtual private network, or VPN. Even though their communication may pass through a public network, computers inside a VPN can connect securely, exactly like if they were on a true private network that is physically isolated from the outside world. With the use of a VPN, staff members may safely access their company's intranet while on the go. Businesses can also use VPNs to extend their private networks domestically and internationally.
 
 
-This lab's goal is to assist students in comprehending how a VPN operates. We concentrate on a particular kind of VPN (the most popular one), which is constructed on top of the transport layer. We are going to construct a basic VPN from the ground up.
+The goal of this lab implementation is to understand how a VPN operates. We concentrate on a particular kind of VPN (the most popular one), which is constructed on top of the transport layer. We are going to construct a basic VPN from the ground up.
 <br />
 
 
@@ -30,6 +28,7 @@ This lab's goal is to assist students in comprehending how a VPN operates. We co
 - `./dc-unittest.sh` - Utility script to aid in running a specific unit test class.
 
 <h2>Program walk-through:</h2>
+This lab provides hands-on experience with the foundational concepts of VPNs, including TUN/TAP interfaces, tunneling, and routing. By implementing both unidirectional and bidirectional tunnels,
 
 - <b>Virtual Private Network:</b><br>
 
