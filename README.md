@@ -31,14 +31,9 @@ This lab's goal is to assist students in comprehending how a VPN operates. We co
 
 <h2>Program walk-through:</h2>
 
-- <b> Using Scapy for Sniffing and Spoofing:</b>
+- <b>Virtual Private Network:</b><br>
 
-     1. Sniffing packets with Scapy, including setting filters to capture specific types of packets (like ICMP or TCP).<br>
-     2. Spoofing ICMP packets with arbitrary source IP addresses using Scapy.<br>
-     3. Implementing a traceroute-like tool using Scapy by manipulating the TTL (Time-To-Live) field in IP packets.<br>
-     4. Combining sniffing and spoofing techniques to create a program that automatically sends spoofed ICMP replies.<br>
+   • The TUN/TAP virtual interface<br>
+   • IP tunneling<br>
+   • Routing<br>
 
-- <b> Writing C Programs for Sniffing and Spoofing:</b>
- 
-     1. Tasks in this set involve writing programs in C to manually implement packet sniffing and spoofing, allowing students to understand the
-          low-level implementation details of these techniques.<br>
