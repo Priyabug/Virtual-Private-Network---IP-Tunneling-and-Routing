@@ -20,7 +20,7 @@ The goal of this lab implementation is to understand how a VPN operates. We conc
 
 <h2>Shell scripts commands</h2>
 
-- `./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process, e.g. `./dc-build.sh --no-cache`.
+-   ./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process, e.g. `./dc-build.sh --no-cache`.
 - `./dc-up.sh` - Start the docker containers in the foreground.
 - `./dc-up-d.sh` - Start the docker containers in the background.
 - `./dc-stop.sh` - Stop the docker containers, it can take one additional parameter to be used in the stop process.
