@@ -1,4 +1,4 @@
-<h1>Implementation of VPN Tunnel</h1>
+<h1>Virtual Private Network - IP Tunneling and Routing</h1>
 
 <h2>Description</h2>
 A private network constructed on top of a public network, typically the Internet, is called a virtual private network, or VPN. Even though their communication may pass through a public network, computers inside a VPN can connect securely, exactly like if they were on a true private network that is physically isolated from the outside world. With the use of a VPN, staff members may safely access their company's intranet while on the go. Businesses can also use VPNs to extend their private networks domestically and internationally.
