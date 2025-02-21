@@ -7,6 +7,8 @@ A private network constructed on top of a public network, typically the Internet
 The goal of this lab implementation is to understand how a VPN operates. We concentrate on a particular kind of VPN (the most popular one), which is constructed on top of the transport layer. We are going to construct a basic VPN from the ground up.
 <br />
 
+![image](https://github.com/user-attachments/assets/6e2f1fb3-cbd2-46da-ac63-ee55d799403b)
+
 
 <h2> Lab topics covered</h2>
 
