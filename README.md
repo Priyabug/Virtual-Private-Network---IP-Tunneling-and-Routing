@@ -1,10 +1,11 @@
 <h1>Virtual Private Network - IP Tunneling and Routing</h1>
 
 <h2>Description</h2>
-A private network constructed on top of a public network, typically the Internet, is called a virtual private network, or VPN. Even though their communication may pass through a public network, computers inside a VPN can connect securely, exactly like if they were on a true private network that is physically isolated from the outside world. With the use of a VPN, staff members may safely access their company's intranet while on the go. Businesses can also use VPNs to extend their private networks domestically and internationally.
+
+• <b> A private network constructed on top of a public network, typically the Internet, is called a virtual private network, or VPN. Even though their communication may pass through a public network, computers inside a VPN can connect securely, exactly like if they were on a true private network that is physically isolated from the outside world. With the use of a VPN, staff members may safely access their company's intranet while on the go. Businesses can also use VPNs to extend their private networks domestically and internationally.</b>
 
 
-The goal of this lab implementation is to understand how a VPN operates. We concentrate on a particular kind of VPN (the most popular one), which is constructed on top of the transport layer. We are going to construct a basic VPN from the ground up.
+• <b> The goal of this lab implementation is to understand how a VPN operates. We concentrate on a particular kind of VPN (the most popular one), which is constructed on top of the transport layer. We are going to construct a basic VPN from the ground up.</b>
 <br />
 
 ![image](https://github.com/user-attachments/assets/6e2f1fb3-cbd2-46da-ac63-ee55d799403b)
@@ -22,7 +23,7 @@ The goal of this lab implementation is to understand how a VPN operates. We conc
 
 <h2>Shell scripts commands</h2>
 
--   ./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process.
+- `./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process.
 - `./dc-up.sh` - Start the docker containers in the foreground.
 - `./dc-up-d.sh` - Start the docker containers in the background.
 - `./dc-stop.sh` - Stop the docker containers, it can take one additional parameter to be used in the stop process.
